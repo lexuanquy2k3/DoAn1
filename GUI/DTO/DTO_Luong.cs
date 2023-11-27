@@ -9,14 +9,14 @@ namespace DTO
     internal class DTO_Luong
     {
             public string MaNV { get; set; }
-            public string HSL { get; set; }
-            public string TongSoNgayLam{ get; set; }
-            public string TongLuong { get; set; }
+            public float HSL { get; set; }
+            public int TongSoNgayLam{ get; set; }
+            public int TongLuong { get; set; }
             public DTO_Luong()
             {
 
             }
-            public DTO_Luong(string MaNV, string HSL, string TSNL, string TL)
+            public DTO_Luong(string MaNV, float HSL, int TSNL, int TL)
             {
                 this.MaNV = MaNV;
                 this.HSL = HSL;

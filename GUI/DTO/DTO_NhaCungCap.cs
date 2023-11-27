@@ -11,12 +11,12 @@ namespace DTO
             public string MaNCC { get; set; }
             public string TenNhaCungCap { get; set; }
             public string DiaChi { get; set; }
-            public string SDT { get; set; }
+            public int SDT { get; set; }
             public DTO_NhaCungCap()
             {
 
             }
-            public DTO_NhaCungCap(string MaNCC, string TNCC, string DC, string SDT)
+            public DTO_NhaCungCap(string MaNCC, string TNCC, string DC, int SDT)
             {
                 this.MaNCC = MaNCC;
                 this.TenNhaCungCap = TNCC;

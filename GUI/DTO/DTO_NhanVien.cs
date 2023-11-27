@@ -13,13 +13,13 @@ namespace DTO
         public string NgaySinh { get; set; }
         public string GioiTinh { get; set; }
         public string DiaChi { get; set; }
-        public string SDT { get; set; }
-        public string CCCD { get; set; }
+        public int SDT { get; set; }
+        public int CCCD { get; set; }
         public DTO_NhanVien()
         {
 
         }
-        public DTO_NhanVien(string MaNV, string TenNV, string NS, string GT, string DC, string SDT, string CCCD)
+        public DTO_NhanVien(string MaNV, string TenNV, string NS, string GT, string DC, int SDT, int CCCD)
         {
             this.MaNV = MaNV;
             this.TenNV = TenNV;

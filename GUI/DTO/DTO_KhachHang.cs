@@ -11,12 +11,12 @@ namespace DTO
 
             public string MaKH { get; set; }
             public string TenKH { get; set; }
-            public string SDT { get; set; }
+            public int SDT { get; set; }
             public DTO_KhachHang()
             {
 
             }
-            public DTO_KhachHang(string MaKH, string TenKH, string SDT)
+            public DTO_KhachHang(string MaKH, string TenKH,int SDT)
             {
                 this.MaKH = MaKH;
                 this.TenKH = TenKH;
