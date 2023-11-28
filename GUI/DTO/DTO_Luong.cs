@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DTO
 {
-    internal class DTO_Luong
+    public class DTO_Luong
     {
             public string MaNV { get; set; }
             public float HSL { get; set; }

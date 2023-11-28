@@ -5,8 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace DTO
-{
-    internal class DTO_NhaCungCap
+{public class DTO_NhaCungCap
     {
             public string MaNCC { get; set; }
             public string TenNhaCungCap { get; set; }

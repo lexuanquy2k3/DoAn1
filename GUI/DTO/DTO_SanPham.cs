@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DTO
 {
-    internal class DTO_SanPham
+    public class DTO_SanPham
     {
 
         public string MaSP { get; set; }

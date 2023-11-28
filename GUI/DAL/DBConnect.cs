@@ -11,7 +11,7 @@ namespace DAL
 {
     public class DBConnect
     {
-        protected SqlConnection con = new SqlConnection(@"Data Source=TRUONG\SQLEXPRESS;Initial Catalog=DoAn1TruongHoc;Integrated Security=True");
+        protected SqlConnection con = new SqlConnection(@"Data Source=LAPTOP-5MI5LMRP\SQLEXPRESS01;Initial Catalog=DoAn1;Integrated Security=True;Trust Server Certificate=True");
     }
     public class ConnectToSQL
     {
